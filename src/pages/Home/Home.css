@@ -1,0 +1,131 @@
+
+.home-header {
+    background: linear-gradient(to bottom,#640b5d, #630212);
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-container {
+    background: black
+}
+.header-btn:hover {
+    border-color: rgb(232, 166, 221);
+}
+
+.home-heading {
+    padding: 0px;
+    margin: 0px;
+    font-size: 44px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.home-main {
+    margin: auto;
+    margin-top: -90px;
+    width: 100vw;
+    height: 100vh;    
+    background-image: url('../../utils/images/yoga_pose2.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.description {
+    font-size: 66px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.btn-section {
+    position: absolute;
+    left: 38vw;
+    top: 60vh;
+}
+
+.btn{
+    align-items: center;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 25px;
+  /* flex-direction: column; */
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  justify-content: center;
+  letter-spacing: .4px;
+  line-height: 1;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:active {
+  outline: 0;
+}
+
+.btn:hover {
+  outline: 0;
+}
+
+.btn span {
+  transition: all 200ms;
+}
+
+.btn:hover span {
+  transform: scale(.9);
+  opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+  .btn {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .btn span {
+    line-height: 50px;
+  }
+}
+
+/* .btn:hover {
+    background: rgba(237, 3, 120, 0.2);
+    color: white;
+} */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+/* #about-btn {
+    padding: 5px 10px;
+} */
+/* #about-btn:hover {
+    border-color: white;
+    background-color: white;
+    color: black;
+} */
+#about-btn:focus {
+    box-shadow: none;
+    background: white;
+    border-color: white;
+    color: black;
+}
